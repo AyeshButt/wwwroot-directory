@@ -15,9 +15,10 @@ Only files inside the wwwroot directory are accessible by clients, ensuring that
 ### **Empty Template**:
 The wwwroot folder exists by default in MVC and Razor Pages templates. In an empty template, you must manually create the wwwroot folder for static file handling to work.
 
-### **Configuring the WebApplication**
+## **Configuring the WebApplication**
 
-## **WebApplicationOptions**: This class provides configuration options for WebApplicationBuilder. It contains:
+### **WebApplicationOptions**: 
+This class provides configuration options for WebApplicationBuilder. It contains:
 
 ### **ContentRootPath**:
 The absolute path to your application.
