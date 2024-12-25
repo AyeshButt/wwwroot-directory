@@ -17,7 +17,7 @@ var webConfigurations = new WebApplicationOptions()
 var builder1 = WebApplication.CreateBuilder(webConfigurations);
 Console.WriteLine(builder1.Environment.WebRootPath);
 
-var app = builder1.Build();
+var app = builder.Build();
 
 app.UseStaticFiles();
 
