@@ -5,24 +5,32 @@ An ASP.NET Core project demonstrating how to configure and change the WebRootPat
 
 **Root Directory**:
 The wwwroot folder contains static files such as JS, CSS, images, and other assets that are available for access via HTTP requests.
+
 **Serving Static Files**:
 These files are served to clients when the application is run. To enable this, the UseStaticFiles middleware must be configured.
+
 **Security**:
 Only files inside the wwwroot directory are accessible by clients, ensuring that other files remain secure and inaccessible from the web.
+
 **Empty Template**:
 The wwwroot folder exists by default in MVC and Razor Pages templates. In an empty template, you must manually create the wwwroot folder for static file handling to work.
 
 **Configuring the WebApplication**
 
 **WebApplicationOptions**: This class provides configuration options for WebApplicationBuilder. It contains:
+
 **ContentRootPath**:
 The absolute path to your application.
+
 **WebRootPath**:
 The path to your wwwroot directory.
+
 **EnvironmentName**:
 The environment in which the application is running (e.g., Development, Production).
+
 **ApplicationName**:
 The name of the application.
+
 **Args**:
 Command-line arguments passed to the application.
 
